@@ -1,0 +1,1 @@
+<?php header('Content-disposition: attachment; filename=SD1.xml');header('Content-type: text/xml');readfile('../XML/SD1.xml');?>

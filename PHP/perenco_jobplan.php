@@ -1,0 +1,1 @@
+<?php header('Content-disposition: attachment; filename=perenco_jobplan.zip');header('Content-type: application/zip');readfile('../ZIP/perenco_jobplan.zip');?>

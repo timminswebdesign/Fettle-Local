@@ -1,0 +1,1 @@
+<?php header('Content-disposition: attachment; filename=FN.zip');header('Content-type: application/zip');readfile('../ZIP/FN.zip');?>

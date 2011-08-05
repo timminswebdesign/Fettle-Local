@@ -1,0 +1,1 @@
+<?php header('Content-disposition: attachment; filename=perenco1.xml');header('Content-type: text/xml');readfile('../XML/perenco1.xml');?>

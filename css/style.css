@@ -1,0 +1,258 @@
+
+/*Resets*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+
+.nomarg {
+    margin-bottom: 0px;
+}
+
+
+/*Main Elements*/
+
+.wrapper {
+	
+    width: 960px;
+    margin: 0 auto 0;
+    overflow: hidden;
+    background-color: white;
+    -webkit-box-shadow: black 0 0 10px;
+    -moz-box-shadow: black 0 0 10px;
+    box-shadow: black 0 0 10px;
+    z-index: -1;
+    behavior: url(PIE.htc);
+}
+
+.header {
+    background-image: url("../images/headerorig.png");
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 100%;
+}
+
+.footer {
+    background-image: url("../images/footerorig.png");
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.footer div {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+	font-size:16px;
+}
+
+.nav div{
+	float:right;
+}
+
+/*Notification*/
+
+#infoBar {
+	
+	
+	color:white;
+    width: 100%;
+    height: 30px;
+    z-index: 10;
+    position: fixed;
+	display:none;
+    top: 0px;
+    right: 0px;
+    background: rgb(0, 0, 0) transparent;
+    background: rgba(0, 0, 0, 0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	
+}
+
+#infoCont{
+	text-align:center;
+	margin: 0 auto 0;
+	width:400px;
+	
+}
+
+#infoImg{
+	float:left;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:12px;
+	width:12px;
+
+	margin: 7px 0 0 5px;
+}
+
+
+#infoMsg{
+	
+	font-weight:bold;
+	font-size:16px;
+	float:left;
+	margin-top:3px;
+	margin-left:20px;
+	color:white;
+}
+
+
+.required-display {
+	display: none;
+	color: red;
+	padding: 0 0 0 20px;
+	background: url('../images/required_red.jpg') 0 -2px no-repeat;
+	margin: 0 0 0 5px;
+}
+.required-asterisk {
+	color:red;
+	padding-left:2px;
+}
+
+/*Validation */
+
+
+.valImg{
+	background-image:url('../images/noval.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	height:12px;
+	width:12px;
+	margin: 3px 0 0 5px;
+	float:left;
+}
+
+.valid{
+	background-image:url('../images/tick.png');
+}
+
+.notvalid{
+	background-image:url('../images/cross.png');
+}
+
+.invaliddata{
+	background-color:Crimson;
+}
+
+
+.valError{
+	
+	display:none;	
+
+}
+
+.valValid{
+	display:none;
+}
+
+.valValid  div span{
+	float:left;
+	padding-left:3px;
+	padding-top:1px;
+}
+
+
+/*Option Tables*/
+
+.txtResult{
+	
+	width:100%;
+	height:100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tblPreview td {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.tblMap td {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.tblAddCol td {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.tblXMLop td {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.trTitle {
+    background-color: #B2DFEE;
+}
+
+.btnTog {
+    font-size: 14px;
+    background-color: #057C8A;
+    color: white;
+    padding: 2px;
+    text-align: left;
+}
+
+.tblPreview {
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+
+.tblPart2 tr td {
+    vertical-align: top;
+}
+
+.tdOpt {
+    width: 100%;
+}
+
+#m6 {
+    width: 100%;
+    text-align: right;
+}
+
+#m7 {
+    width: 100%;
+    text-align: right;
+    display: none;
+}
+
+
+
+
+/*Download Page*/
+
+fieldset{
+	text-align:center;
+}
+
+.btnDownload{
+	margin-top:3px;
+}
+
+
+.postField{
+	text-align:right;
+	padding-right:10px;
+	padding-top:3px;
+}
+
+
+
+
+	
+
+
+
+
+
